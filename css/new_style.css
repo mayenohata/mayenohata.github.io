@@ -12,39 +12,3 @@
 #contact{
 	background-color: #f0f0f0;
 }
-
-
-/* md */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-	.carousel-caption{
-		top: 30%;
-}
-
-}
-
-/* sm */
-@media (min-width: 768px) and (max-width: 991px) {
-
-	.carousel-caption {
-		top: 20%;
-}
-
-}
-
-/* xs */
-@media (max-width: 767px) {
-
-	.carousel-caption {
-		top: 25%;
-}
-}
-
-/* XS Portrait */
-@media (max-width: 479px) {
-	.carousel-caption {
-		top: 20%;
-}
-
-
-}
