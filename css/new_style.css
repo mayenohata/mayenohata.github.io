@@ -17,8 +17,8 @@
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
 
-	.carousel-caption {
-		top: 40%
+	.carousel-caption{
+		top: 30%;
 }
 
 }
@@ -27,7 +27,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
 	.carousel-caption {
-		top: 40%
+		top: 20%;
 }
 
 }
@@ -36,6 +36,15 @@
 @media (max-width: 767px) {
 
 	.carousel-caption {
-		top: 40%
+		top: 25%;
 }
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+	.carousel-caption {
+		top: 20%;
+}
+
+
 }
