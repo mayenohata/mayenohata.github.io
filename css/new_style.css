@@ -1,0 +1,14 @@
+@charset "UTF-8";
+	body {
+		font-family: "Raleway", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		line-height: 1.7857;
+		letter-spacing: 0.075em;
+		color: #33001a !important;
+		background-color: #fff;
+}
+
+#contact{
+	background-color: #f0f0f0;
+}
