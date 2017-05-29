@@ -48,12 +48,12 @@
 		font-weight: 200;
 		line-height: 1.7857;
 		letter-spacing: 0.075em;
-		color: #4d0026;
+		color: #333333;
 		background-color: #fff;
 	}
 
 	a { 
-		color: #660022;
+		color: #000;
 		-webkit-transition: all 0.2s ease-in-out;
 		-moz-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
@@ -250,7 +250,7 @@
 		height: 100%;
 		top: 0;
 		left: 0;
-		opacity: 0.8;
+		opacity: 0.5;
 		position: absolute;
 		width: 100%;
 	}
@@ -259,25 +259,24 @@
 		left: 15px;
 		right: 15px;
 		top: 50%;
-		font-size: 20px;
+		font-size: 15px;
 		text-align: left;
 		color: #fff;
 		text-shadow: none;
-		margin-top: -140px;	
-		font-weight:300;
+		margin-top: -130px;	
 	}
 
 	.carousel-caption h1 {
-		font-size:40px;
+		font-size:46px;
 		margin-bottom:0;
-		line-height:42px;
+		line-height:27px;
 		letter-spacing:2px;
-		font-weight:300;
+		font-weight:100;
 	}
 
 	.carousel-caption h2 {
-		font-size:76px;
-		font-weight:700;
+		font-size:81px;
+		font-weight:600;
 		margin-top:0px;
 		text-transform:lowercase;
 		letter-spacing:2px;
@@ -321,6 +320,55 @@
 	}
 	/* Carousel animation */
 
+	#home-carousel .item h1, 
+	#home-carousel .item h2, 
+	#home-carousel .item p {
+		opacity:0;
+		-moz-transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		-o-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+		transform: scale(0.5);
+	}
+
+	#home-carousel .item h1 {
+		-webkit-transition: all 0.5s ease-in-out 0.15s;
+		-moz-transition: all 0.5s ease-in-out 0.15s;
+		-ms-transition: all 0.5s ease-in-out 0.15s;
+		-o-transition: all 0.5s ease-in-out 0.15s;
+		transition: all 0.5s ease-in-out 0.15s;
+	}
+
+	#home-carousel .item.active h1, 
+	#home-carousel .item.active h2, 
+	#home-carousel .item.active p {
+		opacity:1;
+		-moz-transform: scale(1);
+		-webkit-transform: scale(1);
+		-o-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+
+	#home-carousel .item h2 {
+		-webkit-transition: all 0.5s ease-in-out 0.30s;
+		-moz-transition: all 0.5s ease-in-out 0.30s;
+		-ms-transition: all 0.5s ease-in-out 0.30s;
+		-o-transition: all 0.5s ease-in-out 0.30s;
+		transition: all 0.5s ease-in-out 0.30s;
+	}
+
+	#home-carousel .item p {
+		-webkit-transition: all 0.5s ease-in-out 0.45s;
+		-moz-transition: all 0.5s ease-in-out 0.45s;
+		-ms-transition: all 0.5s ease-in-out 0.45s;
+		-o-transition: all 0.5s ease-in-out 0.45s;
+		transition: all 0.5s ease-in-out 0.45s;
+	}
+
+
+
+
 
 /* 6. SERVICES */
 
@@ -349,13 +397,10 @@
 	}
 
 	.st-service h2 i{
-		color: #000;
 		margin-right: 10px;
-		
 	}
 
-	.st-service p{
-		color: #000;}
+	.st-service p{}
 
 
 
@@ -383,7 +428,7 @@
 	    transition-property:transform, opacity;
 	}
 
-	#works{
+	#our-works{
 		padding-top: 130px;
 		padding-bottom: 120px;
 	}
@@ -409,7 +454,7 @@
 
 	.portfolio-wrapper ul.filter li a:hover,
 	.portfolio-wrapper ul.filter li a.active{
-		color: #660022;
+		color: #000;
 	}
 
 	.portfolio-wrapper .portfolio-items{
@@ -587,10 +632,9 @@
 
 /* 10. OUR TEAM */
 
-	#about{
+	#our-team{
 		padding-top: 130px;
 		padding-bottom: 120px;
-		background-color: #f5f5f5;
 	}
 
 	.team-member{
@@ -599,24 +643,20 @@
 
 	.member-image{
 		position: relative;
-		padding-right:0 !important;
 	}
 
 	.member-info{
+		background-color: #f5f5f5;
 		padding: 15px;
-		margin-top:30px;
 	}
 
 	.member-info h4{
-		font-size: 19px;
 		margin-top: 0;
-		margin-bottom: 8px;
+		margin-bottom: 6px;
 	}
 
-	.member-info p{
-		color: #000;
-		font-size: 15px;
-		font-weight: 300;
+	.member-info span{
+		text-transform: uppercase;
 	}
 
 	.team-member .member-social{
@@ -976,10 +1016,10 @@
 /* 15. FOOTER */
 
 	#footer{
-		background-color: #33001a;
+		background-color: #262626;
 		padding-top: 40px;
 		padding-bottom: 40px;
-		color: rgba(255, 255, 255, 0.5);
+		color: rgba(255, 255, 255, 0.4);
 	}
 
 	#footer a{
