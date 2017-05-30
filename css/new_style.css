@@ -40,7 +40,7 @@ a {
 }
 
 .member-info{
-	background-color:transparent;
+	background-color:transparent !important;
 	margin-top: 25px;
 }
 
