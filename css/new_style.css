@@ -1,16 +1,38 @@
 @charset "UTF-8";
-	body {
-		font-family: "Raleway", Helvetica, Arial, sans-serif;
-		font-size: 16px;
-		font-weight: 200;
-		line-height: 1.7857;
-		letter-spacing: 0.075em;
-		color: #33001a !important;
-		background-color: #fff;
+body {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	line-height: 1.7857;
+	letter-spacing: 0.075em;
+	color: #33001a !important;
+	background-color: #fff;
 }
 
 a { 
 	color: #33001a;
+}
+
+.carousel-caption hgroup{
+	float: left;
+	position: relative;
+	padding-top: 0;
+	margin-top: 0;
+	z-index: 20;
+	right:15%;
+	bottom:20px;
+	left:15%;
+	color:#fff;
+	text-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+
+.carousel-caption{
+	font-size: 20px;
+}
+
+#home-carousel .item:before{
+	background-color: #000;
+	opacity: 0.7;
 }
 
 .st-navbar ul li a{
@@ -20,15 +42,11 @@ a {
 .st-navbar ul li a:hover,
 .st-navbar ul li a:focus {
 	background-color: transparent;
-	color: #rgba(51, 0, 26, 0.6);
+	color: rgba(51, 0, 26, 0.6);
 }
 
 .st-navbar .navbar-toggle .icon-bar {
 	background-color: #33001a;
-}
-
-.carousel-caption {
-	font-size: 20px;
 }
 
 .st-service h2{
