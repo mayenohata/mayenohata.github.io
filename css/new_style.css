@@ -1,7 +1,7 @@
 @charset "UTF-8";
 	body {
 		font-family: "Raleway", Helvetica, Arial, sans-serif;
-		font-size: 14px;
+		font-size: 16px;
 		font-weight: 200;
 		line-height: 1.7857;
 		letter-spacing: 0.075em;
@@ -9,6 +9,51 @@
 		background-color: #fff;
 }
 
+a { 
+	color: #33001a;
+}
+
+.st-navbar ul li a{
+	color: #33001a;
+}
+
+.st-navbar ul li a:hover,
+.st-navbar ul li a:focus {
+	background-color: transparent;
+	color: #rgba(51, 0, 26, 0.6);
+}
+
+.st-navbar .navbar-toggle .icon-bar {
+	background-color: #33001a;
+}
+
+.carousel-caption {
+	font-size: 20px;
+}
+
+.st-service h2{
+	font-size: 18px;
+}
+
 #contact{
 	background-color: #f0f0f0;
+}
+
+.member-info{
+	background-color:transparent;
+	margin-top: 25px;
+}
+
+.member-info h4{
+	font-size: 20px;
+	margin-bottom: 8px;
+}
+
+.member-info p{
+	color:#000;
+	font-size: 18px;
+}
+
+#footer{
+	background-color: #33001a;
 }
