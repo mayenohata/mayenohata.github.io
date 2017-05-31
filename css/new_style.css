@@ -75,3 +75,25 @@ a {
 #footer{
 	background-color: #33001a;
 }
+
+
+/* xs */
+@media (max-width: 767px) {
+.carousel-caption hgroup{
+	left:-3%;
+	padding-left: 0;
+	padding-top: 10%;
+	margin-top: 20%;	
+}
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+.carousel-caption hgroup{
+	left:-3%;
+	padding-left: 0;
+	padding-top: 10%;
+	margin-top: 20%;	
+}
+
+}
