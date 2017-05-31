@@ -57,19 +57,49 @@ a {
 	background-color: #f0f0f0;
 }
 
+#contact .container .container{
+	background-color: #33001a;
+	padding: 10px 20px 35px 20px !important;
+}
+
 .member-info{
 	background-color:transparent !important;
 	margin-top: 25px;
 }
 
 .member-info h4{
-	font-size: 20px;
-	margin-bottom: 8px;
+	font-size: 21px;
+	margin-bottom: 9px;
+	color: #f0f0f0;
 }
 
 .member-info p{
-	color:#000;
-	font-size: 18px;
+	font-size: 17px;
+	color: #f0f0f0;
+	font-weight:300;
+}
+
+.contact-content{
+	color: #f0f0f0;
+	margin-top:5px;
+}
+
+.st-email{
+	margin-left:10px;
+	font-size: 14px !important;
+}
+
+.st-email i{
+	color: #f0f0f0;
+}
+
+.st-linkedin{
+	margin-left:10px;
+	font-size: 14px !important;
+}
+
+.st-linkedin i{
+	color: #f0f0f0;
 }
 
 #footer{
@@ -103,5 +133,38 @@ a {
 	padding-top: 10% !important;
 	margin-top: 20%;	
 }
+
+.member-info{
+	margin-top: 10px;
+}
+
+.member-info h4{
+	font-size: 18px;
+	margin-bottom: 9px;
+	color: #f0f0f0;
+}
+
+.member-info p{
+	font-size: 15px;
+	color: #f0f0f0;
+	font-weight:300;
+}
+
+.contact-content{
+	font-size: 15px;
+}
+
+.st-email{
+	margin-left:10px;
+	font-size: 12px !important;
+}
+
+.st-linkedin{
+	margin-left:10px;
+	font-size: 12px !important;
+}
+
+
+
 
 }
