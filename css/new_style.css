@@ -82,7 +82,7 @@ a {
 .carousel-caption hgroup{
 	left:-3% !important;
 	padding-left: 0;
-	padding-top: 30% !important;
+	padding-top: 10% !important;
 	margin-top: 20%;	
 }
 }
@@ -92,7 +92,8 @@ a {
 .carousel-caption hgroup{
 	left:-3% !important;
 	padding-left: 0;
-	padding-top: 30% !important;
+	top:20%;
+	padding-top: 10% !important;
 	margin-top: 20%;	
 }
 
