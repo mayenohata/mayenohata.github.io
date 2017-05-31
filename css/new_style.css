@@ -85,6 +85,13 @@ a {
 	padding-top: 10% !important;
 	margin-top: 20%;	
 }
+	
+.carousel-caption{
+	font-size: 15px;
+	font-weight: 300;
+	
+}
+	
 }
 
 /* XS Portrait */
