@@ -80,9 +80,9 @@ a {
 /* xs */
 @media (max-width: 767px) {
 .carousel-caption hgroup{
-	left:-3%;
+	left:-3% !important;
 	padding-left: 0;
-	padding-top: 10%;
+	padding-top: 30% !important;
 	margin-top: 20%;	
 }
 }
@@ -90,9 +90,9 @@ a {
 /* XS Portrait */
 @media (max-width: 479px) {
 .carousel-caption hgroup{
-	left:-3%;
+	left:-3% !important;
 	padding-left: 0;
-	padding-top: 10%;
+	padding-top: 30% !important;
 	margin-top: 20%;	
 }
 
